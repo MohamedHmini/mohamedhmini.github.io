@@ -20,7 +20,6 @@ markup:
     endLevel: 6
     ordered: false
 
-
 # Enable global emoji support
 enableEmoji: true
 
