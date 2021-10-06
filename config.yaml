@@ -20,6 +20,12 @@ markup:
     endLevel: 6
     ordered: false
 
+outputs:
+  home:
+  - HTML
+  - RSS
+  - JSON
+
 # Enable global emoji support
 enableEmoji: true
 
