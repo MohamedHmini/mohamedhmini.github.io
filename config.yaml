@@ -20,10 +20,22 @@ markup:
     endLevel: 6
     ordered: false
 
+outputs:
+  home:
+  - HTML
+  - RSS
+  - JSON
+
 # Enable global emoji support
 enableEmoji: true
 
 # Site parameters
+
+features:
+    # Enable and configure portfolio
+    portfolio:
+      enable: true
+
 params:
   background: images/background.jpg
   # background: /assets/images/default-background.jpg
@@ -32,12 +44,12 @@ params:
   gitBranch: source
 
   # specify whether you want to write some blog posts or not
-  enableBlogPost: false
+  enableBlogPost: true
 
   # specify whether you want to show Table of Contents in reading page
-  enableTOC: false
+  enableTOC: true
 
   # Provide newsletter configuration. This feature hasn't been implemented yet.
   # Currently, you can just hide it from the footer.
   newsletter:
-    enable: false
+    enable: true
