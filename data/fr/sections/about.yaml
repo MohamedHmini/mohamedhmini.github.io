@@ -1,6 +1,6 @@
 # section information
 section:
-  name: About
+  name: À Propos
   id: about
   enable: true
   weight: 1
