@@ -1,0 +1,47 @@
+# section information
+section:
+  name: About
+  id: about
+  enable: true
+  weight: 1
+  showOnNavbar: true
+  template: sections/about.html
+
+# your designation
+designation: Data Scientist
+# your company information
+# company:
+#   name: Example Co.
+#   url: "https://www.example.com"
+
+# your resume. this file path should be relative to you "static" directory
+resume: "files/resume.pdf"
+
+# a summary about you
+summary: "Je suis un jeune diplômé de 24 ans du master de recherche en systèmes d'information et systèmes intelligents de l'institut national de statistique et de l'économie appliquée, je suis spécialisé en data science et l'A.i après avoir essayé beaucoup 
+de choses dans mon humble carrière, allant du génie logiciel pur aux domaines liés aux mathématiques tels que les probabilités et les statistiques, j'ai travail dans les deux milieux industrielle et academique,
+ mais je suis plus intéressé par l'application de solutions A.i pour résoudre des problèmes du monde réel, même si l'A.i couvre tous les domaines, quelle que soit leur affiliation."
+
+# your social links
+# give as many as you want. use font-awesome for the icons.
+socialLinks:
+- name: Github
+  icon: "fab fa-github"
+  url: "https://www.github.com/MohamedHmini"
+- name: Linkedin
+  icon: "fab fa-linkedin"
+  url: "https://www.linkedin.com/in/mohamed-hmini-305ab9139/"
+- name: Instagram
+  icon: "fab fa-instagram"
+  url: "https://www.instagram.com/mohamed.hmini/"
+
+# your soft skills
+# give the percentage between 50 to 100 with 5 intervals.
+# currently supported colors: blue, yellow, pink, green, sky, orange
+# softSkills:
+# - name: Statistics
+#   percentage: 100
+#   color: blue
+# - name: Linear Algebra
+#   percentage: 100
+#   color: yellow

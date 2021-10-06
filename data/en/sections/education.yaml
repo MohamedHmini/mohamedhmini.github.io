@@ -1,0 +1,98 @@
+# section information
+section:
+  name: Education
+  id: education
+  template: sections/education.html # Use "sections/education-alt.html for alternate template.
+  enable: true
+  weight: 4
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+degrees:
+- name: Master's Degree of information systems and intelligent systems (M2SI)
+  icon: fa-microscope
+  timeframe: 2019-2020
+  institution:
+    name: National Institute of Statistics and Applied Economics (INSEA)
+    url: "#"
+  takenCourses:
+    showGrades: false
+    courses:
+      - name: S1-M1 Advanced Algorithms
+      - name: S1-M2 Artificial Ingelligence (Ontologies, LISP, Prolog)
+      - name: S1-M3 Advanced Databases
+      - name: S1-M4 Probability, statistics and data analysis
+      - name: S1-M5 Model-driven engineering (metamodeling, codegen ...)
+      - name: S1-M6 Language, communication & enterpreneurship (marketing + finance)
+      - name: S2-M7 Cloud computing & IOT
+      - name: S2-M8 Constraint programming
+      - name: S2-M9 Advanced programming (parallel and concurrent programming)
+      - name: S2-M10 Business Processes engineering (BPMN)
+      - name: S2-M11 Game theory & Stochastic processes
+      - name: S2-M12 Optimization techniques
+      - name: S3-M1 Data mining and Machine Learning
+      - name: S3-M2 Information systems urbanization
+      - name: S3-M3 Image processing
+      - name: S3-M4 Big data
+      - name: S3-M5 Processes optimization
+      - name: S3-M6 language, communication and enterpreneurship (scientific research)
+      - name: S4 PFE (6 months)
+  extracurricularActivities: #(optional)
+  - Memeber and President of the Insea Innovation Edge club (2IE)
+  # grade: #(optional)
+  #   scale: CGPA
+  #   achieved: 3.6
+  #   outOf: 4
+  # publications: #(optional)
+  # - title: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+  #   url: "#"
+  # - title: Fusce eu augue ut odio porttitor pulvinar.
+  #   url: "#"
+  # - title: Nullam vitae orci tincidunt purus viverra pulvinar.
+  #   url: "#"
+- name: Bachelor's Degree (1 year) of information systems and big data (BDSI)
+  icon: fa-graduation-cap
+  timeframe: 2018-2019
+  institution:
+    name: Ecole Superieure de technologie de Sale
+    url: "#"
+  takenCourses: #(optional)
+    showGrades: false
+    courses:
+    - name: S1-M1 Distributed Programming & web services + Python
+    - name: S1-M2 Entrepreneurship & communication techniques
+    - name: S1-M3 Statistical modeling and data visualization
+    - name: S1-M4 Information systems management & big data introduction
+    - name: S1-M5 Hadoop & Mapreduce
+    - name: S1-M6 Information systems & decision support (data warehousing + distributed databases)
+    - name: S2-M7 Data mining & big data management
+    - name: S2-M8 NoSQL databases & distributed processing framework (SPARK)
+    - name: S2-M9 Data security
+    - name: S2-M10 PFE (2 months)
+
+- name: DUT (2 years) (Software Engineering) 
+  icon: fa-graduation-cap
+  timeframe: 2016-2018
+  institution:
+    name: Ecole Superieure de technologie de Meknes
+    url: "#"
+  takenCourses: #(optional)
+    showGrades: false
+    courses:
+    - name: S1-M1 Calculus, Algebra and Probability & Statistics 
+    - name: S1-M2 Algorithms & Programming Basics (C)
+    - name: S1-M3 Language and communication techniques
+    - name: S1-M4 Logic circuits, Microprocessors and Assembly
+    - name: S2-M5 Databases modeling & PHP/MYSQL
+    - name: S2-M6 Algorithms & Data structures
+    - name: S2-M7 Linux system & Networking
+    - name: S2-M8 Law, General Economics and Entreprises' organization
+    - name: S3-M9 Network interaction
+    - name: S3-M10 Advanced databases
+    - name: S3-M11 OOP (JAVA)
+    - name: S3-M12 Decision support tools (Numerical methods, research operations and project management)
+    - name: S4-M13 UML & .NET 
+    - name: S4-M14 Advanced web & PHP
+    - name: S4-M15 PFE
+    - name: S4-M16 First year internship (1 month) + Second year internship (2 months)

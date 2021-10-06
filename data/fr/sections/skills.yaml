@@ -1,0 +1,38 @@
+# section information
+section:
+  name: Competences
+  id: skills
+  enable: true
+  weight: 2
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# Your Skills.
+# Give a summary of you each skill in the summary section.
+skills:
+- name: Docker
+  # logo: "/images/sections/skills/kubernetes.png"
+  summary: "Capable de créer de nouvelles images Docker et de construire des conteneurs."
+  url: "https://www.docker.com/"
+
+- name: Git
+  # logo: "/images/sections/skills/kubernetes.png"
+  summary: "À l'aise avec le contrôle de version git dans mes projets, j'ai utilisé git et github pour gérer la plupart de mes projets pertinents."
+  url: "https://git-scm.com/"
+
+- name: Programming
+  # logo: "/images/sections/skills/go.png"
+  summary: "Habitué à de nombreux paradigmes de programmation (procédural [c], OOP [java], fonctionnel [lisp], logique [prolog, clingo], parallèle [java], distribué [spark RDA] et probabiliste [pyro]), alors que mon langage préféré est python."
+
+- name: Big Data
+  # logo: "/images/sections/skills/cloud.png"
+  summary: "J'ai appris et utilisé des bases de données NoSQL [mongodb, firestore] ainsi que des solutions d'entreposage de données [SSIS OLAP cub] et des outils de traitement de données volumineuses tels que pyspark avec Hadoop env."
+
+- name: Machine Learning
+  # logo: "/images/sections/skills/cloud.png"
+  summary: "À l'aise avec la construction des pipelines de ML de bout en bout, de l'acquisition de données au déploiement de modèles."
+  
+- name: Hard Skills
+  # logo: "/images/sections/skills/cloud.png"
+  summary: "Capable d'analyser et de comprendre des articles de recherche avec des mathématiques rigoureuses, la plupart de mes connaissances en apprentissage automatique découlent de sa compréhension à travers les conceptes en statistiques."

@@ -1,0 +1,47 @@
+# section information
+section:
+  name: About
+  id: about
+  enable: true
+  weight: 1
+  showOnNavbar: true
+  template: sections/about.html
+
+# your designation
+designation: Data Scientist
+# your company information
+# company:
+#   name: Example Co.
+#   url: "https://www.example.com"
+
+# your resume. this file path should be relative to you "static" directory
+resume: "files/resume.pdf"
+
+# a summary about you
+summary: "I am a 24 yo fresh graduate from the master's degree of information systems and intelligent systems at the national institute of statistics and applied economics, i specialize in data science and A.i 
+          after trying many things in my humble career going from pure software engineering to math related fields such as probability and statistics, i have done my fair share of work 
+          both in industry and academia but i'm more interested in applying A.i solutions to solve real world problems even though that A.i spans all fields regardless of their affiliation."
+
+# your social links
+# give as many as you want. use font-awesome for the icons.
+socialLinks:
+- name: Github
+  icon: "fab fa-github"
+  url: "https://www.github.com/MohamedHmini"
+- name: Linkedin
+  icon: "fab fa-linkedin"
+  url: "https://www.linkedin.com/in/mohamed-hmini-305ab9139/"
+- name: Instagram
+  icon: "fab fa-instagram"
+  url: "https://www.instagram.com/mohamed.hmini/"
+
+# your soft skills
+# give the percentage between 50 to 100 with 5 intervals.
+# currently supported colors: blue, yellow, pink, green, sky, orange
+# softSkills:
+# - name: Statistics
+#   percentage: 100
+#   color: blue
+# - name: Linear Algebra
+#   percentage: 100
+#   color: yellow

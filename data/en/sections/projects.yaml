@@ -1,0 +1,121 @@
+# section information
+section:
+  name: Projects
+  id: projects
+  enable: true
+  weight: 4
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# filter buttons
+buttons:
+- name: All
+  filter: "all"
+- name: Professional
+  filter: "professional"
+- name: Academic
+  filter: "academic"
+
+# your projects
+projects:
+- name: BNediction (Feature Selection) 
+  # logo: /images/sections/projects/toha.png
+  role: Contribution
+  timeline: "Mar 2021 - Sept 2021"
+  summary: Master's thesis in Feature Selection for Bonesis framework (see experience section)
+  repo: https://github.com/bnediction
+  tags: ["academic", "machine-learning", "symbolic-ai", "feature-selection", "statistical-analysis", "boolean-networks", "systems-biology"]
+
+- name: iww
+  # logo: /images/sections/projects/kubernetes.png
+  role: Owner
+  timeline: "Apr 2019 - May 2019"
+  repo: https://github.com/MohamedHmini/iww # If your project is a public repo on GitHub, then provide this link. it will show star count.
+  #url: ""  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
+  summary: AI based web-wrapper for web-content-extraction
+  tags: ["professional", "academic", "python", "artificial-intelligence", "web-content-extraction", "web-scrapping"]
+
+- name: tweetsOLAPing
+  # logo: /images/sections/projects/tensorflow.png
+  role: Owner
+  timeline: "Jun 2020 - Jul 2020"
+  repo: https://github.com/MohamedHmini/tweetsOLAPing
+  #url: ""
+  summary: Implementing an end-to-end tweets data warehousing pipeline.
+  tags: ["professional", "twitter-api", "datawarehousing", "google-api-client", "web-crawling", "ETL-pipeline", "cube-analysis", "ssas", "ssis", "powerbi-report","academic"]
+
+- name: D-PandiSIM
+  # logo: /images/sections/projects/toha.png
+  role: Owner
+  timeline: "Jan 2021 - Feb 2021"
+  repo: https://github.com/MohamedHmini/D-PandiSIM
+  summary: distributed pandemics simulator, uses the power of spark to generate huge bulks of contact-tracing data.
+  tags: ["big-data", "spark", "graph-algorithms", "markov-chain", "pyspark", "pandemics", "distributed-programming", "simulator", "professional"]
+
+- name: Tracking The Untrackable
+  # logo: /images/sections/projects/toha.png
+  role: Owner
+  timeline: "Feb 2021 - Present"
+  summary: Simple Implementation of Tracking the untrackable paper
+  tags: ["pytorch","computer-vision","deep-learning","professional"]
+
+- name: VARIABLE NEIGHBORHOOD SEARCH
+  # logo: /images/sections/projects/toha.png
+  role: Owner
+  timeline: "Nov 2019 - Dec 2019"
+  repo: https://github.com/MohamedHmini/VARIABLE-NEIGHBORHOOD-SEARCH
+  summary: "VNS-SOLVER : implementation of the VNS meta-heuristic using the C programming language"
+  tags: ["optimization","artificial-intelligence", "operations-research", "meta-heuristics", "c-programming", "academic","professional"]
+
+- name: DSL-Lion
+  # logo: /images/sections/projects/toha.png
+  role: Owner
+  timeline: "Nov 2019 - Jan 2020"
+  repo: https://github.com/MohamedHmini/DSL-Lion
+  summary: a DSL name lion based on pandas that is supposed to make your cleaning data cycle easier
+  tags: ["DSL","data pre-processing","machine-learning", "sql-like", "professional"]
+
+- name: Paysim Fraud Detection
+  # logo: /images/sections/projects/toha.png
+  role: Owner
+  timeline: "Dec 2020 - Jan 2021"
+  repo: https://github.com/MohamedHmini/Paysim-Fraud-Detection-using-VAE-and-BNN
+  summary: fraud detection on the paysim dataset, with the use of VAE to perform data-augmentation and BNN to classify the datapoints.
+  tags: ["deep-learning","probabilistic-programming", "bayesian-inference", "variational-inference", "fraud-detection","academic","professional"]
+
+- name: Covid19 Deaths' Forcasting
+  # logo: /images/sections/projects/toha.png
+  role: Owner
+  timeline: "Dec 2020 - Dec 2020"
+  repo: https://github.com/MohamedHmini/Time-series-analysis-on-covid19-deaths
+  summary: Forcasting covid19 deaths
+  tags: ["machine-learning","time-series","covid-19","professional"]
+
+- name: wildlife ontology
+  # logo: /images/sections/projects/toha.png
+  role: Owner
+  timeline: "Apr 2020 - May 2020"
+  summary: Building a wildlife ontology using conceptual graphs
+  tags: ["amineplatform","conceptual-graphs","ontologies", "artificial-intelligence", "symbolic-ai","academic"]
+
+- name: DashPay
+  # logo: /images/sections/projects/toha.png
+  role: Owner
+  timeline: "Nov 2018 - Dec 2018"
+  summary: PSP (payment service provider)
+  tags: ["professional", "mobile-dev", "Flutter", "Django", "JAX-WS", "glassfish", "SQL-server", "mysql"]
+
+- name: Isheae
+  # logo: /images/sections/projects/toha.png
+  role: Owner
+  timeline: "Jan 2018 - May 2018"
+  summary: interscholastic collaboration platform prototype
+  tags: ["professional", "web-dev", "Angular5.js", "FireStore", "node.js", "express.js"]
+
+- name: AccountantENV
+  # logo: /images/sections/projects/toha.png
+  role: Owner
+  timeline: "Jul 2017 - Aug 2017"
+  summary: an ERP accounting module
+  tags: ["professional", ".NET", "SQL server"]
