@@ -2,31 +2,28 @@
 No content shown here is rendered, all content is based in the template layouts/page/search.html
 Setting a very low sitemap priority will tell search engines this is not important content.
 This implementation uses Fusejs, jquery and mark.js
-Initial setup Search depends on additional output content type of JSON in config.toml ``` [outputs] home = [&ldquo;HTML&rdquo;, &ldquo;JSON&rdquo;] ```"><meta property="og:type" content="article"><meta property="og:url" content="https://mohamedhmini.github.io/fr/search/"><meta property="article:published_time" content="2010-06-08T08:06:25+06:00"><meta property="article:modified_time" content="2010-06-08T08:06:25+06:00"><link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/atom-one-dark.min.css><link rel=stylesheet href=/css/layouts/notes.css><link rel=stylesheet href=/css/navigators/sidebar.css></head><body data-spy=scroll data-target=#TableOfContents data-offset=80><div class="container-fluid bg-dimmed wrapper"><nav class="navbar navbar-expand-xl top-navbar final-navbar shadow"><div class=container><button class="navbar-toggler navbar-light" id=sidebar-toggler type=button onclick=toggleSidebar()>
+Initial setup Search depends on additional output content type of JSON in config.toml ``` [outputs] home = [&ldquo;HTML&rdquo;, &ldquo;JSON&rdquo;] ```"><meta property="og:type" content="article"><meta property="og:url" content="https://mohamedhmini.github.io/fr/search/"><meta property="article:published_time" content="2010-06-08T08:06:25+06:00"><meta property="article:modified_time" content="2010-06-08T08:06:25+06:00"><link rel=stylesheet href=/css/layouts/list.css><link rel=stylesheet href=/css/navigators/sidebar.css><link rel=stylesheet href=/css/style.css></head><body data-spy=scroll data-target=#TableOfContents data-offset=80><div class="container-fluid bg-dimmed wrapper"><nav class="navbar navbar-expand-xl top-navbar final-navbar shadow"><div class=container><button class="navbar-toggler navbar-light" id=sidebar-toggler type=button onclick=toggleSidebar()>
 <span class=navbar-toggler-icon></span></button>
 <a class=navbar-brand href=/fr>Mohamed Hmini</a>
 <button class="navbar-toggler navbar-light" id=toc-toggler type=button onclick=toggleTOC()>
-<span class=navbar-toggler-icon></span></button><div class="collapse navbar-collapse lang-selector" id=top-nav-items><ul class="navbar-nav ml-auto"><li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href=# id=languageSelector role=button data-toggle=dropdown aria-haspopup=true aria-expanded=false><span class="flag-icon flag-icon-fr"></span>French</a><div class=dropdown-menu aria-labelledby=languageSelector><a class="dropdown-item nav-link languages-item" href=/search><span class="flag-icon flag-icon-gb"></span>English</a></div></li></ul></div></div></nav><section class=sidebar-section id=sidebar-section><div class=sidebar-holder><div class=sidebar id=sidebar><form class=mx-auto method=get action=/fr/search><input type=text name=keyword placeholder=Search data-search id=search-box></form><div class=sidebar-tree><ul class=tree id=tree><li id=list-heading><a href=/fr/notes data-filter=all>Remarques</a></li><div class=subtree></div></ul></div></div></div></section><section class=content-section id=content-section><div class="content container-fluid" id=content><div class="container-fluid note-card-holder" id=note-card-holder><p>This file exists solely to respond to /search URL with the related <code>search</code> layout template.</p><p>No content shown here is rendered, all content is based in the template layouts/page/search.html</p><p>Setting a very low sitemap priority will tell search engines this is not important content.</p><p>This implementation uses Fusejs, jquery and mark.js</p><h2 id=initial-setup>Initial setup</h2><p>Search depends on additional output content type of JSON in config.toml
-```
-[outputs]
-home = [&ldquo;HTML&rdquo;, &ldquo;JSON&rdquo;]
-```</p><h2 id=searching-additional-fileds>Searching additional fileds</h2><p>To search additional fields defined in front matter, you must add it in 2 places.</p><h3 id=edit-layouts_defaultindexjson>Edit layouts/_default/index.JSON</h3><p>This exposes the values in /index.json
-i.e. add <code>category</code>
-```
-&mldr;
-&ldquo;contents&rdquo;:{{ .Content | plainify | jsonify }}
-{{ if .Params.tags }},
-&ldquo;tags&rdquo;:{{ .Params.tags | jsonify }}{{end}},
-&ldquo;categories&rdquo; : {{ .Params.categories | jsonify }},
-&mldr;
-```</p><h3 id=edit-fusejs-options-to-search>Edit fuse.js options to Search</h3><p><code>static/js/search.js</code>
-```
-keys: [
-&ldquo;title&rdquo;,
-&ldquo;contents&rdquo;,
-&ldquo;tags&rdquo;,
-&ldquo;categories&rdquo;
-]
-```</p></div></div></section></div><footer class="container-fluid text-center align-content-center footer pb-2"><div class="container pt-5"><div class="row text-left"><div class="col-md-4 col-sm-12"><h5>Navigation</h5><ul><li class=nav-item><a class=smooth-scroll href=/#about>À Propos</a></li><li class=nav-item><a class=smooth-scroll href=/#skills>Competences</a></li><li class=nav-item><a class=smooth-scroll href=/#experiences>Experiences</a></li><li class=nav-item><a class=smooth-scroll href=/#education>Éducation</a></li><li class=nav-item><a class=smooth-scroll href=/#projects>Projets</a></li></ul></div><div class="col-md-4 col-sm-12"><h5>Contactez moi :</h5><ul><li><span>Email:</span> <span>mhmini@insea.ac.ma</span></li><li><span>Phone:</span> <span>+212708241660</span></li></ul></div></div></div><hr><div class=container><div class="row text-left"><div class=col-md-4><a id=theme href=https://github.com/hossainemruz/toha target=_blank rel=noopener><img src=/images/theme-logo_hu8376fd15465fef26ffe66b6bcf0ca686_13669_32x0_resize_box_2.png alt="Toha Theme Logo">
+<span class=navbar-toggler-icon></span></button><div class="collapse navbar-collapse lang-selector" id=top-nav-items><ul class="navbar-nav ml-auto"><li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href=# id=languageSelector role=button data-toggle=dropdown aria-haspopup=true aria-expanded=false><span class="flag-icon flag-icon-fr"></span>French</a><div class=dropdown-menu aria-labelledby=languageSelector><a class="dropdown-item nav-link languages-item" href=/search><span class="flag-icon flag-icon-gb"></span>English</a></div></li></ul></div></div></nav><section class=sidebar-section id=sidebar-section><div class=sidebar-holder><div class=sidebar id=sidebar><form class=mx-auto method=get action=/fr/search><input type=text name=keyword placeholder=Search data-search id=search-box></form><div class=sidebar-tree><ul class=tree id=tree><li id=list-heading><a href=/fr/posts data-filter=all>Articles</a></li><div class=subtree></div></ul></div></div></div></section><section class=content-section id=content-section><div class="content container-fluid" id=content><div class="container-fluid post-card-holder" id=post-card-holder><div id=search-results><script id=search-result-template type=text/x-js-template>
+          <div class="post-card">
+            <a href="${link}" class="post-card-link">
+              <div class="card" style="min-height: 352px;"><a href="${link}" class="post-card-link">
+                <div class="card-head">
+                  <img class="card-img-top" src="${hero}" alt="Card Heading Image">
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">${title}</h5>
+                  <p class="card-text post-summary">${summary}</p>
+                </div>
+                <div class="card-footer">
+                  <span class="float-left">${date}</span>
+                  <a href="${link}" class="float-right btn btn-outline-info btn-sm">Read</a>
+                </div>
+              </div>
+	          </a>
+          </div>
+        </script></div></div></div></section></div><footer class="container-fluid text-center align-content-center footer pb-2"><div class="container pt-5"><div class="row text-left"><div class="col-md-4 col-sm-12"><h5>Navigation</h5><ul><li class=nav-item><a class=smooth-scroll href=/#about>À Propos</a></li><li class=nav-item><a class=smooth-scroll href=/#skills>Competences</a></li><li class=nav-item><a class=smooth-scroll href=/#experiences>Experiences</a></li><li class=nav-item><a class=smooth-scroll href=/#education>Éducation</a></li><li class=nav-item><a class=smooth-scroll href=/#projects>Projets</a></li></ul></div><div class="col-md-4 col-sm-12"><h5>Contactez moi :</h5><ul><li><span>Email:</span> <span>mhmini@insea.ac.ma</span></li><li><span>Phone:</span> <span>+212708241660</span></li></ul></div></div></div><hr><div class=container><div class="row text-left"><div class=col-md-4><a id=theme href=https://github.com/hossainemruz/toha target=_blank rel=noopener><img src=/images/theme-logo_hu8376fd15465fef26ffe66b6bcf0ca686_13669_32x0_resize_box_2.png alt="Toha Theme Logo">
 Toha</a></div><div class="col-md-4 text-center">© 2020 Copyright.</div><div class="col-md-4 text-right"><a id=hugo href=https://gohugo.io/ target=_blank rel=noopener>Alimenté par
-<img src=/images/hugo-logo.svg alt="Hugo Logo" height=18></a></div></div></div></footer><script type=text/javascript src=/js/jquery-3.4.1.min.js></script><script type=text/javascript src=/js/popper.min.js></script><script type=text/javascript src=/js/bootstrap.min.js></script><script type=text/javascript src=/js/navbar.js></script><script type=text/javascript src=/js/plyr.js></script><script type=text/javascript src=/js/main.js></script><script src=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/highlight.min.js></script><script src=/js/imagesloaded.pkgd.min.js></script><script src=/js/note.js></script><script>hljs.initHighlightingOnLoad();</script></body></html>
+<img src=/images/hugo-logo.svg alt="Hugo Logo" height=18></a></div></div></div></footer><script type=text/javascript src=/js/jquery-3.4.1.min.js></script><script type=text/javascript src=/js/popper.min.js></script><script type=text/javascript src=/js/bootstrap.min.js></script><script type=text/javascript src=/js/navbar.js></script><script type=text/javascript src=/js/plyr.js></script><script type=text/javascript src=/js/main.js></script><script src=https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.0/fuse.min.js></script><script src=https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js></script><script src=https://mohamedhmini.github.io/js/search.js></script></body></html>
