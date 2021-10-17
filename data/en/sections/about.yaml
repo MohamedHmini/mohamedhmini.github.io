@@ -8,7 +8,7 @@ section:
   template: sections/about.html
 
 # your designation
-designation: Data Scientist
+designation: Data Engineer | Data Scientist | A.i Developer
 # your company information
 # company:
 #   name: Example Co.
