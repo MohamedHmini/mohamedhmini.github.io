@@ -11,13 +11,13 @@ section:
 # Your experiences
 experiences:
 - company:
-    name: LaBRI
+    name: LaBRI (laboratoire bordelais de recherche en informatique)
     url: "https://www.labri.fr/"
     location: Bordeaux, France
     # company overview
-    overview: laboratoire bordelais de recherche en informatique
+    overview: Synthesis and learning of boolean networks for predicting cellular differentiation
   positions:
-  - designation: Synthesis and learning of boolean networks for predicting cellular differentiation (M2 internship)
+  - designation: ML Engineer, Master's thesis Internship (6 months)
     start: Mar 2021
     end: Sept 2021
     # don't provide end date if you are currently working there. It will be replaced by "Present"
@@ -28,3 +28,38 @@ experiences:
     - Creating Different Boolean Networks' Embedding techniques to allow for a multilevel view of the same Boolean Networks' ensemble.
     - Applying Feature Selection techniques to isolate the good Boolean Networks.
     - resynthesize new Boolean Networks using the learned rules using https://github.com/bnediction/bonesis
+
+- company:
+    name: SALIDOR
+    url: "https://www.salidor.com/"
+    location: Meknes, Morocco
+    # company overview
+    overview: Re-modeling the purchase-to-pay business process
+  positions:
+  - designation: Software Engineering Internship (2 months)
+    start: Abr 2018
+    end: May 2018
+    # don't provide end date if you are currently working there. It will be replaced by "Present"
+    # end: Dec 2020
+    # give some points about what was your responsibilities at the company.
+    responsibilities:
+    - Understanding the ERP solution implemented in SALIDOR.
+    - Testing the ERP modules and highlighting bugs to remove as well as possible functionalities to add.
+    - Focusing on the purchase-to-pay business process and re-modeling it using UML activity diagram.
+    
+- company:
+    name: Fiduciaire Aguidi
+    location: Meknes, Morocco
+    # company overview
+    overview: Digital transformation of day-to-day accounting tasks
+  positions:
+  - designation: Software Engineering Internship (1 month)
+    start: Jul 2017
+    end: Jul 2017
+    # don't provide end date if you are currently working there. It will be replaced by "Present"
+    # end: Dec 2020
+    # give some points about what was your responsibilities at the company.
+    responsibilities:
+    - Building simple Excel VBA macros to eliminate unnecessary redundant work.
+    - Constructing prototypes of Excel VBA forms to digitize an entire pipeline of accounting tasks.
+    - Building an Accountant ERP module using .NET technology.

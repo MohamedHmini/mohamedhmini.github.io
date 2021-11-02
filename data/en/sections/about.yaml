@@ -34,6 +34,9 @@ socialLinks:
 - name: Instagram
   icon: "fab fa-instagram"
   url: "https://www.instagram.com/mohamed.hmini/"
+- name: Smartr
+  icon: "fab fa-smartr"
+  url: https://www.smartr.me/public/profiles/mohamed.hmini
 
 # your soft skills
 # give the percentage between 50 to 100 with 5 intervals.
