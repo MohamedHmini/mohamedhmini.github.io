@@ -42,6 +42,10 @@ params:
   # GitHub repo URL of your site 
   gitRepo: https://github.com/MohamedHmini/mohamedhmini.github.io.git/
   gitBranch: source
+  logo:
+    main: /images/site/favicon.jpg
+    inverted: /images/site/favicon.jpg
+    favicon: /images/site/favicon.jpg
 
   # specify whether you want to write some blog posts or not
   enableBlogPost: false
