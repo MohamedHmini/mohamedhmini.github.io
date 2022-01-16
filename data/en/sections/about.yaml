@@ -8,11 +8,11 @@ section:
   template: sections/about.html
 
 # your designation
-designation: Data Engineer | Data Scientist | A.i Developer
+designation: Data Scientist
 # your company information
-# company:
-#   name: Example Co.
-#   url: "https://www.example.com"
+company:
+  name: EVEAD Group
+  url: "https://www.evead.com/"
 
 # your resume. this file path should be relative to you "static" directory
 resume: "files/en-resume.pdf"
