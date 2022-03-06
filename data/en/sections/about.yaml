@@ -10,9 +10,9 @@ section:
 # your designation
 designation: Data Scientist
 # your company information
-company:
-  name: EVEAD Group
-  url: "https://www.evead.com/"
+# company:
+#   name: EVEAD Group
+#   url: "https://www.evead.com/"
 
 # your resume. this file path should be relative to you "static" directory
 resume: "files/en-resume.pdf"

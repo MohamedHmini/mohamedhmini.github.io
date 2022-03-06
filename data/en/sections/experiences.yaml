@@ -11,6 +11,23 @@ section:
 # Your experiences
 experiences:
 - company:
+    name: EVEAD Group
+    url: "https://www.evead.com/"
+    location: Casablanca, Morocco
+    # company overview
+    overview: Automated sitemap generator
+  positions:
+  - designation: Data Engineer
+    start: Jan 2022
+    end: Mar 2022
+    # don't provide end date if you are currently working there. It will be replaced by "Present"
+    # end: Dec 2020
+    # give some points about what was your responsibilities at the company.
+    responsibilities:
+    - building a google search based sitemap generator using selenium.
+    - mimicking the human behavior while browsing (dodging bot detections).
+    - optimizing memory consumption.
+- company:
     name: LaBRI (laboratoire bordelais de recherche en informatique)
     url: "https://www.labri.fr/"
     location: Bordeaux, France
