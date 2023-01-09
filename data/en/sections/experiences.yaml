@@ -11,6 +11,23 @@ section:
 # Your experiences
 experiences:
 - company:
+    name: CGG Services (UK)
+    url: "https://www.cgg.com/"
+    location: Llandudno, United Kingdom
+    # company overview
+    overview: DevOps, MLOps, Machine Learning
+  positions:
+  - designation: Data Engineer
+    start: Apr 2022
+    end: present
+    # don't provide end date if you are currently working there. It will be replaced by "Present"
+    # end: Dec 2020
+    # give some points about what was your responsibilities at the company.
+    responsibilities:
+    - DevOps: coming up with adequate git branching strategies, helping with setting up CI/CD pipelines, dockerizing software.
+    - MLOps: building a proof-of-concept MLOps pipeline (making use of a model registry, private docker image registry, k8s deployment).
+    - ML: modeling, building, testing and deploying machine learning models.
+- company:
     name: EVEAD Group
     url: "https://www.evead.com/"
     location: Casablanca, Morocco

@@ -13,12 +13,12 @@ section:
 skills:
 - name: Docker
   # logo: "/images/sections/skills/kubernetes.png"
-  summary: "Capable of creating new docker images and building containers."
+  summary: "Applying Docker best practices."
   url: "https://www.docker.com/"
 
 - name: Git
   # logo: "/images/sections/skills/kubernetes.png"
-  summary: "Comfortable using git version control in my projects, i used git and github to manage most of my relevant projects."
+  summary: "Applying git versioning best practices."
   url: "https://git-scm.com/"
 
 - name: Programming
