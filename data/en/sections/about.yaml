@@ -18,9 +18,8 @@ company:
 resume: "files/en-resume.pdf"
 
 # a summary about you
-summary: "I am a 25 yo fresh graduate from the master's degree of information systems and intelligent systems at the national institute of statistics and applied economics, I specialize in data engineering, data science and A.i 
-          after trying many things in my humble career going from pure software engineering to math related fields such as probability and statistics, i have done my fair share of work 
-          both in industry and academia but i'm more interested in applying A.i solutions to solve real world problems even though that A.i spans all fields regardless of their affiliation."
+summary: "I'm a graduate of the M2SI (Msc of Information systems and Intelligent systems) program offered by INSEA (The National Institute of Statistics and Applied economics), I have worked on projects in Data Engineering, Data Science, Academic A.i ressearch
+ as well as pure Software Engineering ones, I love building Software."
 
 # your social links
 # give as many as you want. use font-awesome for the icons.
