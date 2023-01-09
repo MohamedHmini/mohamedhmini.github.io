@@ -11,7 +11,7 @@ section:
 designation: Data Engineer
 # your company information
 company:
-  name: CGG Services
+  name: CGG Services (UK)
   url: "https://www.cgg.com/"
 
 # your resume. this file path should be relative to you "static" directory
