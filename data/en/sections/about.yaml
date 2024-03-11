@@ -8,7 +8,7 @@ section:
   template: sections/about.html
 
 # your designation
-designation: Data Engineer
+designation: MLOps Engineer
 # your company information
 company:
   name: CGG Services (UK)
@@ -18,8 +18,7 @@ company:
 resume: "files/en-resume.pdf"
 
 # a summary about you
-summary: "I'm a graduate of the M2SI (Msc of Information systems and Intelligent systems) program offered by INSEA (The National Institute of Statistics and Applied economics), I have worked on projects in Data Engineering, Data Science, Academic A.i ressearch
- as well as pure Software Engineering ones, I love building Software."
+summary: "MLOps Engineer with 2 years of experience in various fields including Data Science, Data Engineering and DevOps seeking full-time MLOps/DevOps roles."
 
 # your social links
 # give as many as you want. use font-awesome for the icons.

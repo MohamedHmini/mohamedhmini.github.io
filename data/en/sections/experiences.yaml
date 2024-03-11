@@ -19,14 +19,21 @@ experiences:
   positions:
   - designation: Data Engineer
     start: Apr 2022
-    end: present
+    end: Jan 2023
     # don't provide end date if you are currently working there. It will be replaced by "Present"
     # end: Dec 2020
     # give some points about what was your responsibilities at the company.
     responsibilities:
     - DevOps, coming up with adequate git branching strategies, helping with setting up CI/CD pipelines, dockerizing software.
-    - MLOps, building a proof-of-concept MLOps pipeline (making use of a model registry, private docker image registry, k8s deployment).
     - ML, modeling, building, testing and deploying machine learning models.
+  - designation: MLOps Engineer
+    start: Jan 2023
+    end: present
+    # don't provide end date if you are currently working there. It will be replaced by "Present"
+    # end: Dec 2020
+    # give some points about what was your responsibilities at the company.
+    responsibilities:
+    - MLOps, productionizing our ML system by automating model deployment and model monitoring.
 - company:
     name: EVEAD Group
     url: "https://www.evead.com/"

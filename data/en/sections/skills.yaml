@@ -11,15 +11,9 @@ section:
 # Your Skills.
 # Give a summary of you each skill in the summary section.
 skills:
-- name: Docker
+- name: Producionizing
   # logo: "/images/sections/skills/kubernetes.png"
-  summary: "Applying Docker best practices."
-  url: "https://www.docker.com/"
-
-- name: Git
-  # logo: "/images/sections/skills/kubernetes.png"
-  summary: "Applying git versioning best practices."
-  url: "https://git-scm.com/"
+  summary: "Git versioning Strategies, Docker, Kubernetes (k8s), Gitlab CI/CD, Azure"
 
 - name: Programming
   # logo: "/images/sections/skills/go.png"
@@ -27,11 +21,11 @@ skills:
 
 - name: Big Data
   # logo: "/images/sections/skills/cloud.png"
-  summary: "Learned and used NoSQL databases [mongodb, firestore] as well as data warehousing solutions [SSIS OLAP cub] and big data processing tools such as pyspark with Hadoop env."
+  summary: "Learned and used NoSQL databases [mongodb, firestore, neorj] as well as data warehousing solutions [SSIS OLAP cub] and big data processing tools such as pyspark with Hadoop env."
 
-- name: Machine Learning
+- name: MLOps
   # logo: "/images/sections/skills/cloud.png"
-  summary: "Comforable building end-to-end ML pipelines starting from data acquisition to model deployment."
+  summary: "Comforable building end-to-end ML pipelines starting from data acquisition to model deployment/monitoring."
   
 - name: Hard Skills
   # logo: "/images/sections/skills/cloud.png"
