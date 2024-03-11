@@ -13,7 +13,7 @@ section:
 skills:
 - name: Producionizing
   # logo: "/images/sections/skills/kubernetes.png"
-  summary: "Git versioning Strategies, Docker, Kubernetes (k8s), Gitlab CI/CD, Azure"
+  summary: "Git versioning Strategies, Docker, Kubernetes (k8s), Gitlab CI/CD, Azure, Mlflow"
 
 - name: Programming
   # logo: "/images/sections/skills/go.png"
