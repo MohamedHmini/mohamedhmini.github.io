@@ -25,9 +25,9 @@ experiences:
     # give some points about what was your responsibilities at the company.
     responsibilities:
     - Building an end-to-end model deployment CI/CD template to be used to deploy all of our models by enforcing the use of best practices such us registering models in mlflow.
-    - Building a tool to be used for model monitoring in production: an alibi-detect based tool that can be integrated with the model deployment CI/CD template to monitor models in real time.
+    - Building a tool to be used for model monitoring in production; an alibi-detect based tool that can be integrated with the model deployment CI/CD template to monitor models in real time.
     - Optimizing legacy algorithms by migrating to Spark.
-    - Tools: python, spark, k8s, docker, gitlab ci/cd, azure, nuclio, neo4j, prometheus, grafana, mlflow, etc.
+    - Used Tools; python, spark, k8s, docker, gitlab ci/cd, azure, nuclio, neo4j, prometheus, grafana, mlflow, etc.
 
   - designation: Data Engineer
     start: Apr 2022
