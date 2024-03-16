@@ -13,7 +13,7 @@ section:
 skills:
 - name: Producionizing
   # logo: "/images/sections/skills/kubernetes.png"
-  summary: "Git versioning Strategies, Docker, Kubernetes (k8s), Gitlab CI/CD, Azure, Mlflow"
+  summary: "Git versioning Strategies, Docker, Kubernetes (k8s), Helm, Gitlab CI/CD, Azure, Mlflow"
 
 - name: Programming
   # logo: "/images/sections/skills/go.png"
@@ -21,7 +21,7 @@ skills:
 
 - name: Big Data
   # logo: "/images/sections/skills/cloud.png"
-  summary: "Learned and used NoSQL databases [mongodb, firestore, neorj] as well as data warehousing solutions [SSIS OLAP cub] and big data processing tools such as pyspark with Hadoop env."
+  summary: "Learned and used NoSQL databases [mongodb, firestore, neo4j] as well as data warehousing solutions [SSIS OLAP cub] and big data processing tools such as pyspark with Hadoop env."
 
 - name: MLOps
   # logo: "/images/sections/skills/cloud.png"
