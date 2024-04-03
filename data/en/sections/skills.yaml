@@ -11,22 +11,26 @@ section:
 # Your Skills.
 # Give a summary of you each skill in the summary section.
 skills:
-- name: Producionizing
+- name: Infrastructure
   # logo: "/images/sections/skills/kubernetes.png"
-  summary: "Git versioning Strategies, Docker, Kubernetes (k8s), Helm, Gitlab CI/CD, Azure, Mlflow"
+  summary: "Docker, Kubernetes (k8s), Helm, Gitlab, Azure"
+
+- name: Operations
+  # logo: "/images/sections/skills/kubernetes.png"
+  summary: "Git Versioning Strategies, Gitlab CI/CD, Mlflow, Model Performance Monitoring, Model Deployment, Comfortable with building E2E ML Pipelines"
+
+- name: Machine Learning & A.i
+  # logo: "/images/sections/skills/kubernetes.png"
+  summary: "Good understanding of Symbolic A.i (Rule-based systems, Constraint Programming, Conceptual Graphs, etc), Statistics (Estimation Theory, Sampling, Tests, Beysian Statistics, etc), Mathematical optimization methods (Gradient-based, Meta-heuristic, etc), Explainable Machine Learning, Computer Vision, Data Manupilation tools (Numpy, Pandas, Matplotlib, Seaborn, Sklearn, Pytorch, Pyro, Scrapy, SHAP, etc)."
 
 - name: Programming
   # logo: "/images/sections/skills/go.png"
-  summary: "Used to many programming paradigms (procedural [c], OOP [java], functional [lisp], logical [prolog, clingo], parallel [java], distributed [spark RDA] and probabilistic [pyro]), while my prefered language is python."
+  summary: "Used to many programming paradigms (procedural [C], OOP [Java], functional [Lisp], logical [Prolog, Clingo], parallel [Java], distributed [Spark RDA through Pyspark] and probabilistic [Pyro]), while my prefered language is python."
 
 - name: Big Data
   # logo: "/images/sections/skills/cloud.png"
-  summary: "Learned and used NoSQL databases [mongodb, firestore, neo4j] as well as data warehousing solutions [SSIS OLAP cub] and big data processing tools such as pyspark with Hadoop env."
+  summary: "Learned and used NoSQL databases [Mongodb, Firestore, Neo4j] as well as Data Warehousing solutions [SSIS OLAP cub] and big data processing tools such as Pyspark with a Hadoop env."
 
-- name: MLOps
-  # logo: "/images/sections/skills/cloud.png"
-  summary: "Comforable building end-to-end ML pipelines starting from data acquisition to model deployment/monitoring."
-  
 - name: Hard Skills
   # logo: "/images/sections/skills/cloud.png"
   summary: "Capable of analyzing and understanding Research Articles with rigorous maths, most of my machine learning knowledge stems from understanding it through the lenses of statistics."
