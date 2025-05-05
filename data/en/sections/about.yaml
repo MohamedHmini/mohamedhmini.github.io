@@ -11,14 +11,14 @@ section:
 designation: MLOps Engineer
 # your company information
 company:
-  name: CGG Services (UK)
-  url: "https://www.cgg.com/"
+  name: Viridien (UK)
+  url: "https://www.viridiengroup.com/"
 
 # your resume. this file path should be relative to you "static" directory
 resume: "files/en-resume.pdf"
 
 # a summary about you
-summary: "Experienced MLOps Engineer with a 2-year background in Data Science, Data Engineering, and DevOps with Degrees in Software Engineering and Intelligent Systems. I love problem solving but most importantly novelty when it comes to challenges, My cross-disciplinary skills help me to communicate effectively with other colleagues for better work efficiency. Actively seeking full-time MLOps/DevOps positions."
+summary: "Experienced MLOps Engineer with a 3-year background in Data Science, Data Engineering, and DevOps with Degrees in Software Engineering and Intelligent Systems. I love problem solving and most importantly novelty when it comes to challenges, My cross-disciplinary skills help me to communicate effectively with colleagues from other disciplines. Actively seeking full-time MLOps positions."
 
 # your social links
 # give as many as you want. use font-awesome for the icons.

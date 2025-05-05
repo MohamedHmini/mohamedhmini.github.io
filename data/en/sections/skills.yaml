@@ -17,7 +17,7 @@ skills:
 
 - name: Operations
   # logo: "/images/sections/skills/kubernetes.png"
-  summary: "Git Versioning Strategies, Gitlab CI/CD, Mlflow, Model Performance Monitoring, Model Deployment, Comfortable with building E2E ML Pipelines"
+  summary: "Git Versioning Strategies, Gitlab CI/CD, Mlflow, Model Performance Monitoring, Model Deployment."
 
 - name: Machine Learning & A.i
   # logo: "/images/sections/skills/kubernetes.png"

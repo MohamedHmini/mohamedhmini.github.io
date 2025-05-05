@@ -11,11 +11,11 @@ section:
 # Your experiences
 experiences:
 - company:
-    name: CGG Services (UK)
-    url: "https://www.cgg.com/"
+    name: Viridien (UK)
+    url: "https://www.viridiengroup.com/"
     location: Llandudno, United Kingdom
     # company overview
-    overview: DevOps, MLOps, Machine Learning
+    overview: Software Engineering, DevOps, MLOps, Machine Learning
   positions:
   - designation: MLOps Engineer
     start: Jan 2023
@@ -24,11 +24,13 @@ experiences:
     # end: Dec 2020
     # give some points about what was your responsibilities at the company.
     responsibilities:
-    - Productionizing our ML system.
-    - Building an end-to-end model deployment CI/CD template to be used to deploy all of our models by enforcing the use of best practices such us registering models in mlflow.
-    - "Building a tool to be used for model monitoring in production: an alibi-detect based tool that can be integrated with the model deployment CI/CD template to monitor models in real time."
-    - Optimizing legacy algorithms by migrating to Spark.
-    - "Used Tools: Python, Spark, K8S, Docker, Gitlab CI/CD, Azure, Nuclio, Neo4j, Prometheus, Grafana, Mlflow, Mlrun, etc"
+    - Productionising our ML System with packaging, containerization, CI/CD K8s deployments.
+    - Actively optimizing our ML Pipeline to run efficiently on Azure as well as on-prem.
+    - Redesigning our system for better scalability, transitioning from Spark to Argo workflows and to a Producer/Consumer design, as well as supporting running Models in an Offline mode.
+    - Building and optimizing an Azure Blob Storage events python listener.
+    - MLOps, Building an end-to-end Model Deployment CI/CD template to be used to deploy all of our models.
+    - MLOps, Building a tool to be used for Model Monitoring in production.
+    - Tools: Python, Spark, Argo, K8S, Docker, Gitlab CI/CD, Azure, Nuclio, Neo4j, Prometheus, Grafana, Mlflow, etc
 
   - designation: Data Engineer
     start: Apr 2022
