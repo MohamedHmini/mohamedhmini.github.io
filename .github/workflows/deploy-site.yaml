@@ -5,6 +5,7 @@ on:
   push:
     branches:
     - source
+  
 jobs:
   deploy:
     runs-on: ubuntu-20.10
