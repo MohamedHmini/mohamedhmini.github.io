@@ -24,13 +24,14 @@ experiences:
     # end: Dec 2020
     # give some points about what was your responsibilities at the company.
     responsibilities:
-    - Productionising our ML System with packaging, containerization, CI/CD K8s deployments.
-    - Actively optimizing our ML Pipeline to run efficiently on Azure as well as on-prem.
-    - Redesigning our system for better scalability, transitioning from Spark to Argo workflows and to a Producer/Consumer design, as well as supporting running Models in an Offline mode.
-    - Building and optimizing an Azure Blob Storage events python listener.
-    - MLOps, Building an end-to-end Model Deployment CI/CD template to be used to deploy all of our models.
-    - MLOps, Building a tool to be used for Model Monitoring in production.
-    - Tools: Python, Spark, Argo, K8S, Docker, Gitlab CI/CD, Azure, Nuclio, Neo4j, Prometheus, Grafana, Mlflow, etc
+    - Productionising our ML System with packaging, containerization, CI/CD and K8s deployments.
+    - Actively optimizing our ML Pipeline to run efficiently on Azure as well as on-prem (e.g. IO, CPU, GPU).
+    - A benchmarking driven redesign of our system for better scalability, transitioning from Spark to Argo workflows and then to a
+    - Producer/Consumer design, as well as supporting running Models in an Offline mode to avoid sending data over the network.
+    - Building, scaling, and optimizing an Azure Blob Storage events Consumer.
+    - MLOps, Building an end-to-end Model Deployment CI/CD template to be used to deploy all of our models to both Online and Offline modes.
+    - MLOps, building a tool to be used for Model Monitoring in production.
+    - Tools, Python, Spark, Argo, K8S, Docker, Gitlab CI/CD, Azure, Nuclio, Neo4j, Prometheus, Grafana, Mlflow, etc
 
   - designation: Data Engineer
     start: Apr 2022
