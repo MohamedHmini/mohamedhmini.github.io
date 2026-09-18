@@ -24,14 +24,13 @@ experiences:
     # end: Dec 2020
     # give some points about what was your responsibilities at the company.
     responsibilities:
-    - Productionising our ML System with packaging, containerization, CI/CD and K8s deployments.
-    - Actively optimizing our ML Pipeline to run efficiently on Azure as well as on-prem (e.g. IO, CPU, GPU).
-    - A benchmarking driven redesign of our system for better scalability, transitioning from Spark to Argo workflows and then to a
-    - Producer/Consumer design, as well as supporting running Models in an Offline mode to avoid sending data over the network.
-    - Building, scaling, and optimizing an Azure Blob Storage events Consumer.
-    - MLOps, Building an end-to-end Model Deployment CI/CD template to be used to deploy all of our models to both Online and Offline modes.
-    - MLOps, building a tool to be used for Model Monitoring in production.
-    - Tools, Python, Spark, Argo, K8S, Docker, Gitlab CI/CD, Azure, Nuclio, Neo4j, Prometheus, Grafana, Mlflow, etc
+    - Designed and built a proprietary, event-driven highly scalable producer/consumer orchestration platform based on Celery, Redis, kvrocks, RabbitMQ and Keda; led the team's migration onto it through multiple stages — Spark (Nuclio) → Spark (offline inference) → Argo (Nuclio \& offline) → Docflow (offline inference) — alongside a parallel migration from G2 (a propitiatory HPC orchestration platform) and Airflow, I also leveraged the orchestrator's flexibility to support vLLM-style deployments, increasing throughput via scalable concurrent client calls.
+    - The platform is more than just an orchestration solution it is also a DevOps project with which I achieved a loosely-coupled software solution composed of many isolated and independent repositories (~30 and growing), I also introduced a layered architecture that cleanly separates concerns across 7 layers; Gitlab repo, Python package, API layer, MCP layer, Docker image, Orchestrator wrapper, K8S wrapper (Helm), which freed developers from worrying about anything other than the code itself, it also enables Agnetic workflows to have access to our tooling.
+    - Built a Databricks-like self-service platform deploying per-user notebooks to K8s, letting developers spin up their own Spark clusters for distributed batch computing — complementing the orchestrator's evnet-driven approach for batch-driven workloads it doesn't fit.
+    - Built Sheet2Vec, a model-free, feature-driven embedding approach that extracts visual features from Excel XML to construct per-cell vectors, compressed via statistical methods into a single sheet-level vector — enabling clustering of visually similar sheets without semantic embeddings.
+    - Actively managing our deployments across client environments (Azure, Aws, on-prem), and maintaining our model registry using mlflow.
+    - (previous work) Built mdsdk (Model Deployment sdk), a drift-detection tool using alibi-detect deployed as a per-model sidecar alongside Nuclio model deployments, monitoring inference traffic in real time.
+    - (previous work) I built an end-to-end Model Deployment CI/CD template to be used to deploy all of our models to both Online and Offline modes.
 
   - designation: Data Engineer
     start: Apr 2022
